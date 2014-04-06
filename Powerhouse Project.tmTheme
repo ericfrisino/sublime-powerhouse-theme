@@ -348,7 +348,7 @@
 						</dict>
 				</dict>
 
-
+				<!-- THE BEGINING OF MY CUSTOM STYLES -->
 				<dict> 
 						<key>name</key>
 						<string>meta.function-call</string>
