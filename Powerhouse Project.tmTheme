@@ -6,7 +6,6 @@
 	<string>Powerhouse Project</string>
 	<key>settings</key>
 	<array>
-
 		<dict>
 			<key>settings</key>
 			<dict>
@@ -32,15 +31,15 @@
 		</dict>
 
 		<dict>
-				<key>name</key>
-				<string>Comment</string>
-				<key>scope</key>
-				<string>comment</string>
-				<key>settings</key>
-				<dict>
-						<key>foreground</key>
-						<string>#666666</string> 
-				</dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#666666</string> 
+			</dict>
 		</dict>
 
 		<dict>
@@ -63,7 +62,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#80ABC6</string>
 			</dict>
 		</dict>
 
@@ -75,7 +74,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#80ABC6</string>
 			</dict>
 		</dict>
 
@@ -87,7 +86,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#80ABC6</string>
 			</dict>
 		</dict>
 
@@ -98,8 +97,8 @@
 			<string>variable</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string />
+				<key>foreground</key>
+				<string>#CCCCCC</string>
 			</dict>
 		</dict>
 
@@ -136,10 +135,10 @@
 			<string>storage.type</string>
 			<key>settings</key>
 			<dict>
-				<!--<key>fontStyle</key>
-				<string>italic</string>-->
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#D58946</string>
+				<string>#66D9EF</string>
 			</dict>
 		</dict>
 
@@ -181,7 +180,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#AA768B</string>
+				<string>#D58946</string>
 			</dict>
 		</dict>
 
@@ -229,20 +228,6 @@
 
 		<dict>
 			<key>name</key>
-			<string>Library function</string>
-			<key>scope</key>
-			<string>support.function</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string />
-				<key>foreground</key>
-				<string>#66D9EF</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
 			<string>Library constant</string>
 			<key>scope</key>
 			<string>support.constant</string>
@@ -283,45 +268,15 @@
 
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Double Quotes HTML</string>
 			<key>scope</key>
-			<string>invalid</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#FECE82</string>
-				<key>fontStyle</key>
-				<string />
-				<key>foreground</key>
-				<string>#F8F8F0</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>Invalid deprecated</string>
-			<key>scope</key>
-			<string>invalid.deprecated</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#AE81FF</string>
-				<key>foreground</key>
-				<string>#F8F8F0</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<string>string.quoted.double</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CFCFC2</string>
+				<string>#B4C977</string>
 			</dict>
-		</dict>
+		</dict>		
 
 		<dict>
 			<key>name</key>
@@ -334,8 +289,6 @@
 				<string>#75715E</string>
 			</dict>
 		</dict>
-
-		
 
 		<dict>
 			<key>name</key>
@@ -373,7 +326,7 @@
 			</dict>
 		</dict>
 
-		<!-- THE BEGINING OF MY CUSTOM STYLES -->
+
 		<dict> 
 			<key>name</key>
 			<string>meta.function-call</string>
@@ -386,18 +339,60 @@
 			</dict>
 		</dict>
 
-		<dict> 
+
+		<!-- ---- -------- ------ -->
+		<!-- JSON LANGUAGE STYLES -->
+		<!-- ---- -------- ------ -->
+		<dict>
 			<key>name</key>
-			<string>punctuation.section.embedded.end.php</string>
+			<string>JSON String</string>
 			<key>scope</key>
-			<string>punctuation.section.embedded.end.php, punctuation.section.embedded.begin.php</string>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#80ABC6</string>
+				<string>#CFCFC2</string>
 			</dict>
 		</dict>
 
+
+		<!-- ------- ------ -->
+		<!-- INVALID STYLES -->
+		<!-- ------- ------ -->
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#B22222</string>
+				<key>fontStyle</key>
+				<string />
+				<key>foreground</key>
+				<string>#F8F8F0</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Invalid deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#B22222</string>
+				<key>foreground</key>
+				<string>#F8F8F0</string>
+			</dict>
+		</dict>
+
+
+		<!-- ---- -------- ------ -->
+		<!-- HTML LANGUAGE STYLES -->
+		<!-- ---- -------- ------ -->
 		<dict> 
 			<key>name</key>
 			<string>punctuation.definition.tag.begin.html</string>
@@ -407,30 +402,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#FECE82</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>Double Quotes HTML</string>
-			<key>scope</key>
-			<string>string.quoted.double.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B4C977</string>
-			</dict>
-		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>single Quotes PHP</string>
-			<key>scope</key>
-			<string>meta.string-contents.quoted.single.php, punctuation.definition.string.begin.php, punctuation.definition.string.end.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B4C977</string>
 			</dict>
 		</dict>
 
@@ -470,15 +441,44 @@
 			</dict>
 		</dict>
 
+
+		<!-- --- -------- ------ -->
+		<!-- PHP LANGUAGE STYLES -->
+		<!-- --- -------- ------ -->
+		
 		<dict>
 			<key>name</key>
-			<string>PHP Operators</string>
+			<string>single Quotes PHP</string>
 			<key>scope</key>
-			<string>keyword.operator.logical.php</string>
+			<string>string.quoted.single.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C3BD39</string>
+				<string>#B4C977</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PHP Function Construct</string>
+			<key>scope</key>
+			<string>support.function.construct.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D58946</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>PHP Function Construct</string>
+			<key>scope</key>
+			<string>support.function.string.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D58946</string>
 			</dict>
 		</dict>
 
@@ -494,58 +494,152 @@
 			</dict>
 		</dict>
 
-		<dict>
+		<dict> 
 			<key>name</key>
-			<string>PHP array</string>
+			<string>punctuation.section.embedded.end.php</string>
 			<key>scope</key>
-			<string>support.function.construct.php</string>
+			<string>punctuation.section.embedded.end.php, punctuation.section.embedded.begin.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E1CE89</string>
+				<string>#80ABC6</string>
 			</dict>
 		</dict>
 
-		<!-- THIS IS THE END OF MY CUSTOM STYLES -->
 
-		<dict>
+		<!-- ---- -------- ------ -->
+		<!-- LESS LANGUAGE STYLES -->
+		<!-- ---- -------- ------ -->
+		
+		<dict> 
 			<key>name</key>
-			<string>SublimeLinter Error</string>
+			<string>LESS Class</string>
 			<key>scope</key>
-			<string>sublimelinter.mark.error</string>
+			<string>source.less entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DA2000</string>
+				<string>#DDDDDD</string>
 			</dict>
 		</dict>
 
-		<dict>
+		<dict> 
 			<key>name</key>
-			<string>SublimeLinter Warning</string>
+			<string>LESS id</string>
 			<key>scope</key>
-			<string>sublimelinter.mark.warning</string>
+			<string>source.less entity.other.attribute-name.id.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EDBA00</string>
+				<string>#DDDDDD</string>
 			</dict>
 		</dict>
 
-		<dict>
+		<dict> 
 			<key>name</key>
-			<string>SublimeLinter Gutter Mark</string>
+			<string>LESS Property Name</string>
 			<key>scope</key>
-			<string>sublimelinter.gutter-mark</string>
+			<string>source.less support.type.property-name.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#D58946</string>
 			</dict>
 		</dict>
 
+		<dict> 
+			<key>name</key>
+			<string>LESS Unit Number</string>
+			<key>scope</key>
+			<string>source.less constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80ABC6</string>
+			</dict>
+		</dict>
+
+		<dict> 
+			<key>name</key>
+			<string>LESS Unit Type</string>
+			<key>scope</key>
+			<string>source.less keyword.other.unit</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80ABC6</string>
+			</dict>
+		</dict>
+
+		<dict> 
+			<key>name</key>
+			<string>LESS Unit Type</string>
+			<key>scope</key>
+			<string>source.less support.constant.property-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#80ABC6</string>
+			</dict>
+		</dict>
+
+		<dict> 
+			<key>name</key>
+			<string>LESS Function</string>
+			<key>scope</key>
+			<string>source.less support.function.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D58946</string>
+			</dict>
+		</dict>
+
+		
+
+		
+		<!-- ------- ------ ------ -->
+		<!-- SUBLIME LINTER STYLES -->
+		<!-- ------- ------ ------ -->
+
+		<dict>
+				<key>name</key>
+				<string>SublimeLinter Error</string>
+				<key>scope</key>
+				<string>sublimelinter.mark.error</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#DA2000</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>SublimeLinter Warning</string>
+				<key>scope</key>
+				<string>sublimelinter.mark.warning</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#EDBA00</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>SublimeLinter Gutter Mark</string>
+				<key>scope</key>
+				<string>sublimelinter.gutter-mark</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFFFFF</string>
+				</dict>
+			</dict>
+			
 		</array>
 	<key>uuid</key>
-	<string>5EAF4173-5DDE-4D64-A1E8-C1671C7EE335</string>
+	<string>5EAF4173-5DDE-4D64-A1E8-C1671C7EE339</string>
 </dict>
 </plist>
