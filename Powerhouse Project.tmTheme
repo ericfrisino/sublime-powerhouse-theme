@@ -339,6 +339,18 @@
 			</dict>
 		</dict>
 
+		<dict> 
+			<key>name</key>
+			<string>Universal Opening and Closing Carrots on tags</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FECE82</string>
+			</dict>
+		</dict>
+
 
 		<!-- ---- -------- ------ -->
 		<!-- JSON LANGUAGE STYLES -->
@@ -390,20 +402,12 @@
 		</dict>
 
 
+
+
+
 		<!-- ---- -------- ------ -->
 		<!-- HTML LANGUAGE STYLES -->
 		<!-- ---- -------- ------ -->
-		<dict> 
-			<key>name</key>
-			<string>punctuation.definition.tag.begin.html</string>
-			<key>scope</key>
-			<string>punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FECE82</string>
-			</dict>
-		</dict>
 
 		<dict>
 			<key>name</key>
